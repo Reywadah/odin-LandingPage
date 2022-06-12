@@ -1,0 +1,231 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(img/photo1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+header,footer{
+    background-color:#1f2937;
+    height: 50px;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color:#1d2735;
+    margin:0;
+}
+.logo {
+    background-color:#1f2937;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+.logo a{
+    font-size:30px;
+}
+.logo img {
+    background-color:#1f2937;
+    height: 50px;
+    width:auto;
+}
+
+.left-side{
+    justify-self:flex-start;
+    background-color:#1f2937;
+}
+header a{
+    justify-self: flex-start;
+    text-decoration: none;
+    color: white;
+    background-color:#1f2937;
+}
+header ul{
+    display:flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+    background-color:#1f2937;
+    gap: 50px;
+}
+ul li{
+    list-style: none;
+}
+header img{
+    width:30px;
+    height:auto;
+}
+header div{
+    display:flex;
+}
+.container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width: 100%;
+}
+.first{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    background-color: #1f2937;
+    color: white;
+    padding: 50px;
+    width: 100%;
+    margin-bottom:200px;
+    width: calc(100% - 100px);
+}
+.text{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:15px;
+    width: 400px;
+    background-color: #1f2937;
+}
+.first h1{
+    font-size:24px;
+    color: #F9faf8;
+    background-color: #1f2937;
+}
+
+.text input[type="submit" i]{
+    background-color:rgb(11, 105, 212);
+    width:100px;
+    color: white;
+    border-radius: 6px;
+}
+.text input[type="submit" i]:hover{
+    background-color:rgb(6, 58, 118);
+}
+.first p{
+    font-size:18px;
+    color:#E5E7EB;
+    background-color: #1f2937;
+}
+.first img{
+    width: 300px;
+    height:auto;
+}
+.second{
+    display:flex;
+    flex-direction:column;
+    gap: 2px;
+    justify-content: space-evenly;
+    background-color:rgba(229, 231, 235, 0.603);
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom:200px;
+    width:100%;
+    padding: 20px 0px 20px 0px;
+}
+.second h3{
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 900;
+    font-size:36px;
+}
+.second ul{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap: wrap;
+    padding-top:30px
+}
+.second ul li{
+    list-style: none;
+}
+.second li p{
+    margin:10px;
+}
+.second li img{
+    width: 200px;
+    height:120px;
+    border: 1px solid rgb(25, 224, 255, 0.3);
+    border-radius: 6px;
+}
+li button{
+    align-self: center;
+    flex-grow: auto;
+}
+
+.third{
+    background-color:rgba(229, 231, 235, 0.603);
+    color: #1f2937;
+    font-size: 36px;
+    font-style:italic;
+    margin-bottom:250px;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+}
+.third .top{
+    padding: 60px;
+    background-color: rgba(229, 231, 235, 0.493);
+}
+
+.Facts{
+    display: flex;
+    flex-flow: column wrap;
+    gap:20px;
+    padding:0px 0px 30px 60px;
+    background-color: rgba(229, 231, 235, 0.47);
+}
+.fourth{
+    display: flex;
+    color:#E5E7EB;
+    flex-direction:row; 
+    justify-content: space-around;
+    align-items: center;
+    padding:5px;
+    background-color:#1f2937;
+    text-align:center;
+    width: calc(100% - 10px);
+}
+
+.side1{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+
+}
+.side2 ul{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:0px;
+    background-color:transparent;
+}
+.side2 ul li{
+    list-style: none;
+    background-color:transparent;
+}
+.side2 li img{
+    width: 50px;
+    height:auto;
+    flex:0 1 auto;
+    border-radius: 6px;
+    background-color:transparent;
+}
+.side3 a{
+    text-decoration: none;
+    color:#E5E7EB;
+    justify-self: flex-end;
+    font-size:35px;
+}
+.side2 h2{
+    margin-top:10px;
+    margin-bottom:30px;
+}
+footer{
+    text-align: center;
+    color:#E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
